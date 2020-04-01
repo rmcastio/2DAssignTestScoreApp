@@ -29,7 +29,7 @@ public class Main
             if (testScore <= 100)
             {
                 scoreCount = scoreCount + 1;
-                scoreTotal = scoreTotal + scoreCount;
+                scoreTotal = scoreTotal + testScore;
             }
         }
         // display the score count, score total, and average score
